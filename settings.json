@@ -1,18 +1,13 @@
 {
+  /* editor */
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "code-runner.defaultLanguage": "javascript",
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.showExecutionMessage": false,
-  "code-runner.saveFileBeforeRun": true,
   "explorer.openEditors.visible": 0,
   "editor.formatOnSave": true,
-
-  "javascript.format.enable": false,
-  "prettier.eslintIntegration": true,
-
-  //"prettier.singleQuote": true,
-  "prettier.semi": true,
+  "window.zoomLevel": 0,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "window.menuBarVisibility": "toggle",
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -29,11 +24,15 @@
     "coverage": true
     //"**/.old": true,
   },
-  "window.zoomLevel": 0,
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "window.menuBarVisibility": "toggle"
-  //"code-runner.showRunIconInEditorTitleMenu": false
-  //"prettier.semi": true,
-  //"pre"
+  /* code-runner */
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  /* prettier */
+  "javascript.format.enable": false,
+  "prettier.semi": true,
+  "prettier.eslintIntegration": true
+  //"prettier.singleQuote": true,
 }
