@@ -7,6 +7,7 @@
   "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
+  "workbench.panel.location": "bottom",
   "window.menuBarVisibility": "toggle",
   "files.exclude": {
     "**/.git": true,
@@ -32,7 +33,7 @@
   "code-runner.showRunIconInEditorTitleMenu": false,
   /* prettier */
   "javascript.format.enable": false,
-  "prettier.semi": true,
-  "prettier.eslintIntegration": true
+  //"prettier.eslintIntegration": true,
+  "prettier.semi": true
   //"prettier.singleQuote": true,
 }
