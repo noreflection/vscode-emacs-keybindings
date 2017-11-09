@@ -1,0 +1,39 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.saveFileBeforeRun": true,
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnSave": true,
+
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+
+  //"prettier.singleQuote": true,
+  "prettier.semi": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/node_modules": true,
+    "*/bin": true,
+    "*/obj": true,
+    "**/bin": true,
+    "**/obj": true,
+    "build": true,
+    "coverage": true
+    //"**/.old": true,
+  },
+  "window.zoomLevel": 0,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "window.menuBarVisibility": "toggle"
+  //"code-runner.showRunIconInEditorTitleMenu": false
+  //"prettier.semi": true,
+  //"pre"
+}
