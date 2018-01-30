@@ -3,11 +3,10 @@
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "explorer.openEditors.visible": 0,
-  //"editor.formatOnSave": true,
   "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
-  "workbench.panel.location": "bottom",
+  "files.defaultLanguage": "javascriptreact",
   "window.menuBarVisibility": "toggle",
   "files.exclude": {
     "**/.git": true,
@@ -21,29 +20,28 @@
     "*/obj": true,
     "**/bin": true,
     "**/obj": true,
+    "**/.old": true,
     "build": true,
-    "coverage": true
-    //"**/.old": true,
+    "coverage": true,
+    //on cra eject
+    "config": true,
+    "scripts": true
   },
-
   /* code-runner */
   "code-runner.defaultLanguage": "javascript",
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showRunIconInEditorTitleMenu": false,
-
   /* prettier */
   "javascript.format.enable": false,
-  //"prettier.eslintIntegration": true,
   "prettier.semi": true,
   "prettier.singleQuote": true,
-  //"prettier.singleQuote": true,
   "javascript.validate.enable": false,
-
   /* git */
   "git.autofetch": true,
   "git.autorefresh": true,
   "git.enableSmartCommit": true,
-  "gitlens.gitExplorer.files.layout": "list"
+  "editor.minimap.enabled": false,
+  "git.path": "C:\\Git\\bin\\git.exe"
 }

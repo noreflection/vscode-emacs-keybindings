@@ -51,5 +51,10 @@
     {
         "key": "ctrl+x right",
         "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "emacs.C-S_bs",
+        "when": "editorTextFocus"
     }
 ]
