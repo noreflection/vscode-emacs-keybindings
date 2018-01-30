@@ -27,12 +27,14 @@
     "config": true,
     "scripts": true
   },
+
   /* code-runner */
   "code-runner.defaultLanguage": "javascript",
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showRunIconInEditorTitleMenu": false,
+
   /* prettier */
   "javascript.format.enable": false,
   "prettier.semi": true,
