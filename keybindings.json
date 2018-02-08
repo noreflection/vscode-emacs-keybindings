@@ -1,63 +1,60 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "alt+e",
-        "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
-    },
-    
-    {
-        "key": "alt+z",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
+  {
+    "key": "alt+e",
+    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "alt+z",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  /*  {
         "key": "ctrl+space",
         "command": "-toggleSuggestionDetails",
         "when": "editorTextFocus && suggestWidgetVisible"
-    },
-    {
-        "key": "alt+enter",
-        "command": "editor.action.quickFix",
-        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+t",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
-        "key": "alt+c",
-        "command": "editor.action.triggerSuggest",
-        "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+s",
-        "command": "workbench.view.explorer"
-    },
-    {
-        "key": "ctrl+q",
-        "command": "workbench.action.quickOpenView"
-    },
-    {
-        "key": "alt+y",
-        "command": "workbench.action.toggleMaximizedPanel"
-    },
-    {
-        "key": "ctrl+alt+m",
-        "command": "code-runner.run"
-    },
-    {
-        "key": "ctrl+x left",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "ctrl+x right",
-        "command": "workbench.action.nextEditor"
-<<<<<<< HEAD
-    },
-    {
-        "key": "ctrl+k",
-        "command": "emacs.C-S_bs",
-        "when": "editorTextFocus"
-=======
->>>>>>> 414b791ab3937c85530fd2f4b7950755821191e6
-    }
+    }, */
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "alt+c",
+    "command": "editor.action.triggerSuggest",
+    "when":
+      "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.view.explorer"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.quickOpenView"
+  },
+  {
+    "key": "alt+y",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "code-runner.run"
+  },
+  //emacs
+  {
+    "key": "ctrl+x left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+x right",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "emacs.C-S_bs"
+  }
 ]
