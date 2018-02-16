@@ -56,5 +56,30 @@
   {
     "key": "ctrl+k",
     "command": "emacs.C-S_bs"
+  },
+  {
+    "key": "ctrl+o ctrl+o",
+    "command": "workbench.action.files.openFolder"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder"
+  },
+  // block arrow keys
+  {
+    "key": "down",
+    "command": "workbench.action.openEditorAtIndex1",
+  },
+  {
+    "key": "up",
+    "command": "workbench.action.openEditorAtIndex1",
+  },
+  {
+    "key": "left",
+    "command": "workbench.action.openEditorAtIndex1",
+  },
+  {
+    "key": "right",
+    "command": "workbench.action.openEditorAtIndex1",
   }
 ]
