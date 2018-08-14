@@ -1,19 +1,17 @@
 {
+  "explorer.autoReveal": false,
   /* editor */
   "window.titleBarStyle": "custom",
   "window.enableMenuBarMnemonics": false,
   "workbench.iconTheme": "vs-minimal",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#280253"
   },
   "explorer.openEditors.visible": 0,
   "breadcrumbs.enabled": true,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 0,
   "files.defaultLanguage": "javascriptreact",
   "window.menuBarVisibility": "default",
   "files.exclude": {
@@ -40,7 +38,7 @@
     "custom_typings": true
   },
   /* git */
-  "git.autofetch": false,
+  "git.autofetch": true,
   "git.autorefresh": true,
   "git.autoRepositoryDetection": false,
   "git.enableSmartCommit": true,
