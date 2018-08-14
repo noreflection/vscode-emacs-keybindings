@@ -83,9 +83,25 @@
   },
   // expand select region
   {
-    "key": "ctrl+w","command": "expand_region", "when": "editorTextFocus"
+    "key": "ctrl+alt+q","command": "expand_region", "when": "editorTextFocus"
   },
   {
     "key": "ctrl+shift+w","command": "undo_expand_region", "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+o r",
+    "command": "workbench.action.files.revealActiveFileInWindows"
+  },
+  {
+    "key": "ctrl+k r",
+    "command": "-workbench.action.files.revealActiveFileInWindows"
+  },
+  {
+    "key": "ctrl+o e",
+    "command": "workbench.files.action.showActiveFileInExplorer"
   }
 ]
