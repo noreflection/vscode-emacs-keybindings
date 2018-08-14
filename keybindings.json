@@ -1,45 +1,34 @@
-// Place your key bindings in this file to overwrite the defaults
 [
+  // editor
   {
-    "key": "alt+e",
-    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
-  },
-  {
-    "key": "alt+z",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  /*  {
-        "key": "ctrl+space",
-        "command": "-toggleSuggestionDetails",
-        "when": "editorTextFocus && suggestWidgetVisible"
-    }, */
-  {
-    "key": "alt+enter",
-    "command": "editor.action.quickFix",
-    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+t",
-    "command": "workbench.action.terminal.focus"
-  },
-  {
-    "key": "alt+c",
-    "command": "editor.action.triggerSuggest",
-    "when":
-      "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
+    "key": "ctrl+q",
+    "command": "workbench.action.quickOpenView" //open list with pannels
   },
   {
     "key": "alt+s",
     "command": "workbench.view.explorer"
   },
   {
-    "key": "ctrl+q",
-    "command": "workbench.action.quickOpenView"
+    "key": "alt+z",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  // navigation
+  {
+    "key": "alt+e",
+    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+  },
+  // commands
+  {
+    "key": "alt+enter",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+y",
-    "command": "workbench.action.toggleMaximizedPanel"
+    "key": "alt+c",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && editorTextFocus && !editorReadonly"
   },
+  // plugins
   {
     "key": "ctrl+alt+m",
     "command": "code-runner.run"
@@ -58,28 +47,25 @@
     "command": "emacs.C-S_bs"
   },
   {
-    "key": "ctrl+o ctrl+o",
+    "key": "ctrl+o ctrl+f",
     "command": "workbench.action.files.openFolder"
   },
   {
-    "key": "ctrl+k ctrl+o",
-    "command": "-workbench.action.files.openFolder"
-  },
-  // block arrow keys
-  {
-    "key": "down",
-    "command": "workbench.action.openEditorAtIndex1",
+    "key": "ctrl+.",
+    "command": "breadcrumbs.focusAndSelect",
+    "when": "breadcrumbsVisible"
   },
   {
-    "key": "up",
-    "command": "workbench.action.openEditorAtIndex1",
+    "key": "ctrl+shift+.",
+    "command": "-breadcrumbs.focusAndSelect",
+    "when": "breadcrumbsVisible"
   },
   {
-    "key": "left",
-    "command": "workbench.action.openEditorAtIndex1",
+    "key": "alt+g",
+    "command": "workbench.view.scm"
   },
   {
-    "key": "right",
-    "command": "workbench.action.openEditorAtIndex1",
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
   }
 ]

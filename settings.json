@@ -1,11 +1,15 @@
 {
   /* editor */
+
+  "workbench.iconTheme": "vs-minimal",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "explorer.openEditors.visible": 0,
-  "window.zoomLevel": 0,
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": true,
+  "explorer.openEditors.visible": 0,
+  "breadcrumbs.enabled": true,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
   "files.defaultLanguage": "javascriptreact",
   "window.menuBarVisibility": "toggle",
   "files.exclude": {
@@ -23,27 +27,34 @@
     "**/.old": true,
     "build": true,
     "coverage": true,
-    //on cra eject
+    // cra-related
     "config": true,
-    "scripts": true
+    "scripts": true,
+    "public": true,
+    // project
+    "ui-test": true,
+    "custom_typings": true
   },
-
+  /* git */
+  "git.autofetch": false,
+  "git.autorefresh": true,
+  "git.enableSmartCommit": true,
+  "git.path": "C:\\Git\\bin\\git.exe",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": false,
+  /* prettier */
+  "javascript.format.enable": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "javascript.validate.enable": false,
   /* code-runner */
   "code-runner.defaultLanguage": "javascript",
   "code-runner.clearPreviousOutput": true,
   "code-runner.showExecutionMessage": false,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.showRunIconInEditorTitleMenu": false,
-
-  /* prettier */
-  "javascript.format.enable": false,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "javascript.validate.enable": false,
-  /* git */
-  "git.autofetch": true,
-  "git.autorefresh": true,
-  "git.enableSmartCommit": true,
-  "editor.minimap.enabled": false,
-  "git.path": "C:\\Git\\bin\\git.exe"
+  /* typescript */
+  "typescript.updateImportsOnFileMove.enabled": "never"
 }
