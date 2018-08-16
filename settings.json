@@ -29,6 +29,7 @@
     "**/.old": true,
     "build": true,
     "coverage": true,
+    ".old": true,
     // cra-related
     "config": true,
     "scripts": true,
