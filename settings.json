@@ -61,6 +61,7 @@
   /* typescript */
   "typescript.updateImportsOnFileMove.enabled": "never",
   "editor.cursorStyle": "underline",
-  "workbench.editor.showTabs": true
+  "workbench.editor.showTabs": true,
+  "gitlens.gitExplorer.files.layout": "tree"
   // "workbench.colorTheme": "Abyss",
 }

@@ -103,5 +103,9 @@
   {
     "key": "ctrl+o e",
     "command": "workbench.files.action.showActiveFileInExplorer"
+  },
+  {
+    "key": "ctrl+shift+/",
+    "command": "workbench.action.showErrorsWarnings"
   }
 ]
