@@ -3,7 +3,7 @@
   /* editor */
   "window.titleBarStyle": "custom",
   "window.enableMenuBarMnemonics": false,
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
@@ -63,6 +63,12 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "editor.cursorStyle": "underline",
   "workbench.editor.showTabs": true,
-  "gitlens.gitExplorer.files.layout": "tree"
+  "gitlens.gitExplorer.files.layout": "tree",
+  "window.zoomLevel": 0,
+  "todohighlight.isEnable": false,
+  "material-icon-theme.folders.color": "#26a69a",
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.activeIconPack": "react"
   // "workbench.colorTheme": "Abyss",
 }
